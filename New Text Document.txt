@@ -1,0 +1,4 @@
+  Jquery ( Important information ) 
+
+create animation, dom element animation , handles event, use ajax  ( what is jquery) 
+small size,load quickly, selectors same as CSS, easy to add jquery and js in webpage 
