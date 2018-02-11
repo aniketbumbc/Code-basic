@@ -1,0 +1,5 @@
+other skills 
+
+Knowledge of Production Level debugging using SYSINTERNALS suite:
+•	Skilled to troubleshoot and resolve common application problems like Memory Leak, Hang, Crash, 
+High CPU Utilization etc. by using tools from freely available Microsoft supported suite ‘Sysinternals’.
