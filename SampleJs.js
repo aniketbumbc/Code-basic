@@ -45,12 +45,40 @@ var Studnet ={
 
 var b=1;
 
-console.log(Studnet['student' + b ]);
-b++;
-console.log(Studnet['student' + b]);
-b++;
-console.log(Studnet['student' + b]);
-b++;
-console.log(Studnet['student' + b]);
-b++;
-console.log(Studnet['student' + b]);
+// console.log(Studnet['student' + b ]);
+// b++;
+// console.log(Studnet['student' + b]);
+// b++;
+// console.log(Studnet['student' + b]);
+// b++;
+// console.log(Studnet['student' + b]);
+// b++;
+// console.log(Studnet['student' + b]);
+
+// array in java script 
+
+var nameCity ;
+var school=["aniket","Bunny","Mike","Marker","Goom"];
+
+school.push("Hello New");
+console.log(school);
+
+school[6]="Sixth";
+console.log(school);
+
+var f=school.toString();  // arry to string to string 
+
+var g="aniket,Bunny,Mike,Marker,Goom,,,,,,,,,,,,,,,,,,,,,Hello New,Sixth"
+
+var h=g.split(','); // string into array  spilt 
+
+// join two array  //shit and unshit , push,pop,length
+
+var k=h.join(school);
+
+var hk=school.join('*');
+
+
+var NewSchool =school.slice(3);
+
+console.log(NewSchool);;
