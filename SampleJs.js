@@ -60,6 +60,8 @@ var b = 1;
 var nameCity;
 var school = ["aniket", 1, 46, 33, 8, 32, 66, "Bunny", "Mike", "Marker", "Goom"];
 
+
+
 school.push("Hello New");
 console.log(school);
 
