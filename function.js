@@ -1,6 +1,7 @@
 console.log("Function Coming Soon");
 
 
+
 //function no parameter 
 function myFun() {
     console.log("Welcome to Function");
@@ -34,3 +35,13 @@ function addArray(personadd, addNew) {
 addArray(person, "New item");
 
 //gobal and local variable scope 
+
+var g= "Global G";
+myFung(g);
+function myFung(g){
+    g+= "  Local World ";
+    console.log(g);
+
+}
+
+console.log(g);
