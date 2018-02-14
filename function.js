@@ -45,3 +45,14 @@ function myFung(g){
 }
 
 console.log(g);
+
+//self excuting function  and anonymous
+
+
+(function(){
+    var b=5;
+var test="Hello world from test";
+
+console.log(test);
+
+})();
