@@ -52,3 +52,20 @@ var sec =  now.getSeconds();
 
 console.log( " Current Time is " +hours +"AM:" +minutes +
 ":" +sec );
+
+
+// Leap year 
+console.log("Leap  year") ;
+
+//debugger;
+var now = new Date();
+var year = now.getFullYear()
+console.log(year);
+
+if(year % 4 == 0 )
+{
+console.log( "Yes Leap Year")
+}else
+{
+console.log("No it is not Leap Year");
+}
