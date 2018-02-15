@@ -33,3 +33,22 @@ if(typeof myObj == "object" )
 };
 
 console.log(myObj);
+
+// Excersie No 1
+
+console.log("abc");
+console .log( "Exercises");
+//debugger;
+var days = ["Sunday","Monday","Tuesday","Wednesday", "Thrusday","Friday","Saturday"];
+//debugger;
+var now= new Date();
+var day= days[now.getDay()];
+console.log(" Today is :" +day);
+//consol.log(" Current Time is : ")
+
+var hours = now.getHours();
+var minutes = now.getMinutes();
+var sec =  now.getSeconds();
+
+console.log( " Current Time is " +hours +"AM:" +minutes +
+":" +sec );
