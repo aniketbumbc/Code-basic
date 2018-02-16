@@ -22,7 +22,7 @@ for(var i = 0; i < data.length; i++)
 
 
 var myObj=[3,4,6,33,77,88];
-debugger;
+//debugger;
 if(typeof myObj == "Array" )
 {
     console.log("Yes it is array");
@@ -69,3 +69,22 @@ console.log( "Yes Leap Year")
 {
 console.log("No it is not Leap Year");
 }
+
+// reversers number 
+
+function byChoice(){
+
+    console.log("Reverse Number");
+   var number = window.prompt(" Enter Number") ;
+    var sum= 0;
+    var rem;
+while { number > 0 }
+{
+rem = number % 10;
+sum = sum * 10 + rem;
+number = number / 10;
+}
+alert( " Reverse Number is " +sum);
+}
+
+byChoice();
