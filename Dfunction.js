@@ -77,14 +77,34 @@ function byChoice(){
     console.log("Reverse Number");
    var number = window.prompt(" Enter Number") ;
     var sum= 0;
-    var rem;
-while { number > 0 }
+    var rem , temp;
+    //temp=number;
+while (number > 0  )
 {
+   // debugger;
 rem = number % 10;
 sum = sum * 10 + rem;
-number = number / 10;
+number = parseInt(number / 10);
 }
 alert( " Reverse Number is " +sum);
 }
 
-byChoice();
+//byChoice();
+
+
+// Palindrome String
+
+function Palindrome(){
+    var palString = window.prompt("Please Check Word");
+    //debugger;
+    var Lstring = palString.length;
+    for( var i = 0 ; i < Math.floor( Lstring / 2 ); i++ ){
+        if (palString [i] !== palString[ Lstring -1 - i]){
+            alert("No Palindrome");
+        }
+    }
+
+    alert(" Palindrome");
+}
+
+Palindrome();
