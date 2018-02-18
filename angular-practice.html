@@ -1,11 +1,22 @@
 <!DOCTYPE html>
-<html ng-app>
+<html ng-app="myModule">
 <head>
 <title> Angular Application</title>
 <script src="./angular.min.js"></script>
+<script src="./Script-angular.js"></script>
 </head>
-<body>
+<body ng-controller="myController">  <!--use controller name  -->
+    <h2>{{ message }}</h2>
 <h1>  10 +10 = {{10+20 }} </h1>  <!--binding Expression -->
+<h3>{{message}}</h3>
+<div>
+
+    <h1> First Name {{employee.firstName}}</h1>
+    <h1> Last Name {{employee.lastName}}</h1>
+    <h1>  Gender  {{employee.gender}}</h1>
+
+</div>
+
 </body>
 </html>
 
