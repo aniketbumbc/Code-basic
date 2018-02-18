@@ -26,3 +26,4 @@ myApp.controller("myController", function($scope){  // create controller functio
     $scope.employee = employee;
 });
 
+//Method Channing 

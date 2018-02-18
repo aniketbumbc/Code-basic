@@ -1,0 +1,42 @@
+<html ng-app="">
+<head>
+    <title> Directive in Angular</title>
+    <script src="./angular.min.js"></script>
+    <script src="./directive-angular.js"></script>
+</head>
+<body>
+    <input type="text" ng-model="name" placeholder="Enter Name" /> welcome
+    <span ng-bind="name"></span>
+
+    <div align="center">
+        <table border="40">
+            <tr>
+                <td>
+                    <input type="checkbox" ng-model="endbbutton"> Disable Button
+                </td>
+                <td>
+                    <button ng-disabled="endbbutton">Click Me</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" ng-model="showhide1"> Show Button
+                </td>
+                <td>
+                    <button ng-show="showhide1">Click Me</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>  Total Click: {{ clickcounter }}</p>
+                </td>
+                <td>
+                    <button ng-click="clickcounter=clickcounter + 1">Click Me</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <h1 align="center"> Custom Directive </h1>
+</body>
+</html>
