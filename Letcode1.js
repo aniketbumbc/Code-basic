@@ -13,19 +13,47 @@ console.log("Let Code Started");
 // arraySum([2, 7, 11, 15],9);
 
 
-function twoSums(nums,target){
-var result=[];
-nums.forEach(function(num ,i){
-    var diff =target-num;
-    var k=nums.indexOf(diff)
-    if(k>-1 && k!==i){
-        result[0]=i
-        result[1]=k
-        return true;
-    }
-})
-return result;
+// function twoSums(nums,target){
+// var result=[];
+// nums.forEach(function(num ,i){
+//     var diff =target-num;
+//     var k=nums.indexOf(diff)
+//     if(k>-1 && k!==i){
+//         result[0]=i
+//         result[1]=k
+//         return true;
+//     }
+// })
+// console.log(result);
 
+// }
+
+// twoSums([2, 7, 11, 15],9);
+
+
+// var reverseInt=function(num){
+//     var rev = 0;
+// while(num > 0)
+// {
+//     var rem = num % 10;
+//     rev = rev * 10 + rem;
+//     num = parseInt(num /10);
+// }
+// console.log (rev);
+// }
+// reverseInt(456);
+
+// // foreach 
+
+ var names =['aniker','Banana' ,'Milke'];
+
+// names.forEach(function(ele){
+//     console.log(ele);
+    
+// });
+
+function ShowResults(value,index,ar){
+    console.log(" value " +value +" Index " +index + " ar " + ar);
 }
 
-twoSums([2, 7, 11, 15],9);
+names.forEach(ShowResults);
