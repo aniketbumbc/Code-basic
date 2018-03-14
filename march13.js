@@ -26,3 +26,32 @@ function Looping() {
 }
 
 Looping();
+
+function NestedLoop(){
+    for(var i= 1; i<=2; i++)
+    {
+        for(var j=1 ; j<=2; j++)
+        {
+            document.write("Hello Nested Loop </br>");
+        }
+    }
+}
+
+NestedLoop();
+
+function palindrome(str){
+    var str,revs="" ;
+    console.log(" Orignal String   "  +str);
+    for(var i=str.length-1; i>=0; i--)
+    {
+        revs +=str[i];
+    }
+   if(revs == str)
+   {
+       console.log("This is Palindrome");
+   }else{
+    console.log("This is Not Palindrome");
+   }
+}
+
+palindrome("repaper");
