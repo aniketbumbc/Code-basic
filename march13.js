@@ -55,3 +55,47 @@ function palindrome(str){
 }
 
 palindrome("repaper");
+
+
+
+// angular for each 
+
+// var obj = {name:"Aniket",age:25,city:"Baltimore"}
+// angular.forEach(obj,function(value,key){
+// console.log(key+ ' ; ' + value);
+// });
+
+
+/* var values = {name: 'misko', gender: 'male' ,city:"London"};
+
+angular.forEach(values, function(value, key) {
+  console.log(key + ': ' + value);
+});
+ */
+/*  var values = {name: 'misko', gender: 'male'};
+ var log = [];
+ angular.forEach(values, function(value, key) {
+  console.log(key + ': ' + value);
+ }); */
+
+//  values = [
+//     {
+//        "Name" : "Thomas",
+//        "Password" : "thomasTheKing"
+//     },
+//     {
+//        "Name" : "Linda",
+//        "Password" : "lindatheQueen"
+//     },
+//     {
+//     "Name":"Aniket",
+//     "Password" :"Yahooo56",
+//     "Email":"dhdj@gmail.com"
+//     }
+//     ];
+    
+//     angular.forEach(values, function(value, key){
+//     angular.forEach(value,function (v1,k1){
+//     console.log(k1+ ' : ' + v1); 
+//     });
+//      }); 
